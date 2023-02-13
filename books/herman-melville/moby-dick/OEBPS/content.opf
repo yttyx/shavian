@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <!-- ISBN -->
+    <dc:identifier id="bookid" opf:scheme="ISBN">urn:uuid:08d8cb20-a6cf-11ed-bf5f-0800200c9a66</dc:identifier>
+    <dc:title>Moby Dick (V0.9)</dc:title>
+    <dc:rights></dc:rights>
+
+    <!-- BISAC Subject Headings List: http://bisg.org/?page=BISACFaQ -->
+    <dc:subject>ahab whale revenge</dc:subject>
+
+    <dc:creator opf:file-as="Melville, Herman" opf:role="aut">Herman Melville</dc:creator>
+
+    <dc:source>[https://www.gutenberg.org/ebooks/15.epub.images]</dc:source>
+
+    <!-- List of contributors
+
+         See: MARC Code List for Relators: http://www.loc.gov/marc/relators/relaterm.html
+
+         Examples: 
+
+         * Editor [edt]
+           Use for a person or organization who prepares for publication a work not primarily his/her own,
+           such as by elucidating text, adding introductory or other critical matter, or technically directing
+           an editorial staff.
+
+         * Cover designer [cov]
+           Use for a person or organization responsible for the graphic design of a book cover,
+           album cover, slipcase, box, container, etc. For a person or organization responsible 
+           for the graphic design of an entire book, use Book designer; for book jackets, use Bookjacket designer.
+
+         * Translator [trl]
+           Use for a person or organization who renders a text from one language into another, or from an older 
+           form of a language into the modern form.
+
+    -->
+
+    <dc:contributor opf:file-as="[LASTNAME, NAME]" opf:role="edt">Project Gutenberg</dc:contributor>
+    <dc:contributor opf:file-as="[LASTNAME, NAME]" opf:role="cov"></dc:contributor>
+    <dc:contributor opf:file-as="[LASTNAME, NAME]" opf:role="trl">yttyx</dc:contributor>
+
+    <dc:publisher>yttyx</dc:publisher>
+    <dc:date opf:event="publication">2023-02-11</dc:date>
+
+    <!-- Language code: http://en.wikipedia.org/wiki/List_of_ISO_639-2_codes -->
+    <dc:language>en</dc:language>
+
+    <meta name="cover" content="MobyCover.jpg" />
+
+    <!-- UUID generator: http://www.famkruithof.net/uuid/uuidgen -->
+    <dc:identifier opf:scheme="UUID">08d8cb20-a6cf-11ed-bf5f-0800200c9a66</dc:identifier>
+
+  </metadata>
+
+  <!-- MANIFEST (mandatory)
+       List of all the resources of the book (XHTML, CSS, images,…).
+       The order of item elements in the manifest is NOT significant.
+
+       http://idpf.org/epub/20/spec/OPF_2.0.1_draft.htm#Section2.3 
+  -->
+
+  <manifest>
+    <item href="Images/MobyCover.jpg" id="cover.jpg" media-type="image/jpeg" />
+    <item href="Styles/style.css" id="css" media-type="text/css" />
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Text/cover.xhtml" id="cover" media-type="application/xhtml+xml" />
+    <item href="Text/acknowledgements.xhtml" id="acknowledgements" media-type="application/xhtml+xml" />
+    <item href="Text/etymology.xhtml" id="etymology" media-type="application/xhtml+xml" />
+    <item href="Text/extracts.xhtml" id="extracts" media-type="application/xhtml+xml" />
+    <item href="Text/chapter1.xhtml" id="chapter-1" media-type="application/xhtml+xml" />
+    <item href="Text/chapter2.xhtml" id="chapter-2" media-type="application/xhtml+xml" />
+    <item href="Text/chapter3.xhtml" id="chapter-3" media-type="application/xhtml+xml" />
+    <item href="Text/chapter4.xhtml" id="chapter-4" media-type="application/xhtml+xml" />
+    <item href="Text/chapter5.xhtml" id="chapter-5" media-type="application/xhtml+xml" />
+    <item href="Text/chapter6.xhtml" id="chapter-6" media-type="application/xhtml+xml" />
+    <item href="Text/chapter7.xhtml" id="chapter-7" media-type="application/xhtml+xml" />
+    <item href="Text/chapter8.xhtml" id="chapter-8" media-type="application/xhtml+xml" />
+    <item href="Text/chapter9.xhtml" id="chapter-9" media-type="application/xhtml+xml" />
+    <item href="Text/chapter10.xhtml" id="chapter-10" media-type="application/xhtml+xml" />
+    <item href="Text/chapter11.xhtml" id="chapter-11" media-type="application/xhtml+xml" />
+    <item href="Text/chapter12.xhtml" id="chapter-12" media-type="application/xhtml+xml" />
+    <item href="Text/chapter13.xhtml" id="chapter-13" media-type="application/xhtml+xml" />
+    <item href="Text/chapter14.xhtml" id="chapter-14" media-type="application/xhtml+xml" />
+    <item href="Text/chapter15.xhtml" id="chapter-15" media-type="application/xhtml+xml" />
+    <item href="Text/chapter16.xhtml" id="chapter-16" media-type="application/xhtml+xml" />
+    <item href="Text/chapter17.xhtml" id="chapter-17" media-type="application/xhtml+xml" />
+    <item href="Text/chapter18.xhtml" id="chapter-18" media-type="application/xhtml+xml" />
+    <item href="Text/chapter19.xhtml" id="chapter-19" media-type="application/xhtml+xml" />
+    <item href="Text/chapter20.xhtml" id="chapter-20" media-type="application/xhtml+xml" />
+    <item href="Text/chapter21.xhtml" id="chapter-21" media-type="application/xhtml+xml" />
+    <item href="Text/chapter22.xhtml" id="chapter-22" media-type="application/xhtml+xml" />
+    <item href="Text/chapter23.xhtml" id="chapter-23" media-type="application/xhtml+xml" />
+    <item href="Text/chapter24.xhtml" id="chapter-24" media-type="application/xhtml+xml" />
+    <item href="Text/chapter25.xhtml" id="chapter-25" media-type="application/xhtml+xml" />
+    <item href="Text/chapter26.xhtml" id="chapter-26" media-type="application/xhtml+xml" />
+    <item href="Text/chapter27.xhtml" id="chapter-27" media-type="application/xhtml+xml" />
+    <item href="Text/chapter28.xhtml" id="chapter-28" media-type="application/xhtml+xml" />
+    <item href="Text/chapter29.xhtml" id="chapter-29" media-type="application/xhtml+xml" />
+    <item href="Text/chapter30.xhtml" id="chapter-30" media-type="application/xhtml+xml" />
+    <item href="Text/chapter31.xhtml" id="chapter-31" media-type="application/xhtml+xml" />
+    <item href="Text/chapter32.xhtml" id="chapter-32" media-type="application/xhtml+xml" />
+    <item href="Text/chapter33.xhtml" id="chapter-33" media-type="application/xhtml+xml" />
+    <item href="Text/chapter34.xhtml" id="chapter-34" media-type="application/xhtml+xml" />
+    <item href="Text/chapter35.xhtml" id="chapter-35" media-type="application/xhtml+xml" />
+    <item href="Text/chapter36.xhtml" id="chapter-36" media-type="application/xhtml+xml" />
+    <item href="Text/chapter37.xhtml" id="chapter-37" media-type="application/xhtml+xml" />
+    <item href="Text/chapter38.xhtml" id="chapter-38" media-type="application/xhtml+xml" />
+    <item href="Text/chapter39.xhtml" id="chapter-39" media-type="application/xhtml+xml" />
+    <item href="Text/chapter40.xhtml" id="chapter-40" media-type="application/xhtml+xml" />
+    <item href="Text/chapter41.xhtml" id="chapter-41" media-type="application/xhtml+xml" />
+    <item href="Text/chapter42.xhtml" id="chapter-42" media-type="application/xhtml+xml" />
+    <item href="Text/chapter43.xhtml" id="chapter-43" media-type="application/xhtml+xml" />
+    <item href="Text/chapter44.xhtml" id="chapter-44" media-type="application/xhtml+xml" />
+    <item href="Text/chapter45.xhtml" id="chapter-45" media-type="application/xhtml+xml" />
+    <item href="Text/chapter46.xhtml" id="chapter-46" media-type="application/xhtml+xml" />
+    <item href="Text/chapter47.xhtml" id="chapter-47" media-type="application/xhtml+xml" />
+    <item href="Text/chapter48.xhtml" id="chapter-48" media-type="application/xhtml+xml" />
+    <item href="Text/chapter49.xhtml" id="chapter-49" media-type="application/xhtml+xml" />
+    <item href="Text/chapter50.xhtml" id="chapter-50" media-type="application/xhtml+xml" />
+    <item href="Text/chapter51.xhtml" id="chapter-51" media-type="application/xhtml+xml" />
+    <item href="Text/chapter52.xhtml" id="chapter-52" media-type="application/xhtml+xml" />
+    <item href="Text/chapter53.xhtml" id="chapter-53" media-type="application/xhtml+xml" />
+    <item href="Text/chapter54.xhtml" id="chapter-54" media-type="application/xhtml+xml" />
+    <item href="Text/chapter55.xhtml" id="chapter-55" media-type="application/xhtml+xml" />
+    <item href="Text/chapter56.xhtml" id="chapter-56" media-type="application/xhtml+xml" />
+    <item href="Text/chapter57.xhtml" id="chapter-57" media-type="application/xhtml+xml" />
+    <item href="Text/chapter58.xhtml" id="chapter-58" media-type="application/xhtml+xml" />
+    <item href="Text/chapter59.xhtml" id="chapter-59" media-type="application/xhtml+xml" />
+    <item href="Text/chapter60.xhtml" id="chapter-60" media-type="application/xhtml+xml" />
+    <item href="Text/chapter61.xhtml" id="chapter-61" media-type="application/xhtml+xml" />
+    <item href="Text/chapter62.xhtml" id="chapter-62" media-type="application/xhtml+xml" />
+    <item href="Text/chapter63.xhtml" id="chapter-63" media-type="application/xhtml+xml" />
+    <item href="Text/chapter64.xhtml" id="chapter-64" media-type="application/xhtml+xml" />
+    <item href="Text/chapter65.xhtml" id="chapter-65" media-type="application/xhtml+xml" />
+    <item href="Text/chapter66.xhtml" id="chapter-66" media-type="application/xhtml+xml" />
+    <item href="Text/chapter67.xhtml" id="chapter-67" media-type="application/xhtml+xml" />
+    <item href="Text/chapter68.xhtml" id="chapter-68" media-type="application/xhtml+xml" />
+    <item href="Text/chapter69.xhtml" id="chapter-69" media-type="application/xhtml+xml" />
+    <item href="Text/chapter70.xhtml" id="chapter-70" media-type="application/xhtml+xml" />
+    <item href="Text/chapter71.xhtml" id="chapter-71" media-type="application/xhtml+xml" />
+    <item href="Text/chapter72.xhtml" id="chapter-72" media-type="application/xhtml+xml" />
+    <item href="Text/chapter73.xhtml" id="chapter-73" media-type="application/xhtml+xml" />
+    <item href="Text/chapter74.xhtml" id="chapter-74" media-type="application/xhtml+xml" />
+    <item href="Text/chapter75.xhtml" id="chapter-75" media-type="application/xhtml+xml" />
+    <item href="Text/chapter76.xhtml" id="chapter-76" media-type="application/xhtml+xml" />
+    <item href="Text/chapter77.xhtml" id="chapter-77" media-type="application/xhtml+xml" />
+    <item href="Text/chapter78.xhtml" id="chapter-78" media-type="application/xhtml+xml" />
+    <item href="Text/chapter79.xhtml" id="chapter-79" media-type="application/xhtml+xml" />
+    <item href="Text/chapter80.xhtml" id="chapter-80" media-type="application/xhtml+xml" />
+    <item href="Text/chapter81.xhtml" id="chapter-81" media-type="application/xhtml+xml" />
+    <item href="Text/chapter82.xhtml" id="chapter-82" media-type="application/xhtml+xml" />
+    <item href="Text/chapter83.xhtml" id="chapter-83" media-type="application/xhtml+xml" />
+    <item href="Text/chapter84.xhtml" id="chapter-84" media-type="application/xhtml+xml" />
+    <item href="Text/chapter85.xhtml" id="chapter-85" media-type="application/xhtml+xml" />
+    <item href="Text/chapter86.xhtml" id="chapter-86" media-type="application/xhtml+xml" />
+    <item href="Text/chapter87.xhtml" id="chapter-87" media-type="application/xhtml+xml" />
+    <item href="Text/chapter88.xhtml" id="chapter-88" media-type="application/xhtml+xml" />
+    <item href="Text/chapter89.xhtml" id="chapter-89" media-type="application/xhtml+xml" />
+    <item href="Text/chapter90.xhtml" id="chapter-90" media-type="application/xhtml+xml" />
+    <item href="Text/chapter91.xhtml" id="chapter-91" media-type="application/xhtml+xml" />
+    <item href="Text/chapter92.xhtml" id="chapter-92" media-type="application/xhtml+xml" />
+    <item href="Text/chapter93.xhtml" id="chapter-93" media-type="application/xhtml+xml" />
+    <item href="Text/chapter94.xhtml" id="chapter-94" media-type="application/xhtml+xml" />
+    <item href="Text/chapter95.xhtml" id="chapter-95" media-type="application/xhtml+xml" />
+    <item href="Text/chapter96.xhtml" id="chapter-96" media-type="application/xhtml+xml" />
+    <item href="Text/chapter97.xhtml" id="chapter-97" media-type="application/xhtml+xml" />
+    <item href="Text/chapter98.xhtml" id="chapter-98" media-type="application/xhtml+xml" />
+    <item href="Text/chapter99.xhtml" id="chapter-99" media-type="application/xhtml+xml" />
+    <item href="Text/chapter100.xhtml" id="chapter-100" media-type="application/xhtml+xml" />
+    <item href="Text/chapter101.xhtml" id="chapter-101" media-type="application/xhtml+xml" />
+    <item href="Text/chapter102.xhtml" id="chapter-102" media-type="application/xhtml+xml" />
+    <item href="Text/chapter103.xhtml" id="chapter-103" media-type="application/xhtml+xml" />
+    <item href="Text/chapter104.xhtml" id="chapter-104" media-type="application/xhtml+xml" />
+    <item href="Text/chapter105.xhtml" id="chapter-105" media-type="application/xhtml+xml" />
+    <item href="Text/chapter106.xhtml" id="chapter-106" media-type="application/xhtml+xml" />
+    <item href="Text/chapter107.xhtml" id="chapter-107" media-type="application/xhtml+xml" />
+    <item href="Text/chapter108.xhtml" id="chapter-108" media-type="application/xhtml+xml" />
+    <item href="Text/chapter109.xhtml" id="chapter-109" media-type="application/xhtml+xml" />
+    <item href="Text/chapter110.xhtml" id="chapter-110" media-type="application/xhtml+xml" />
+    <item href="Text/chapter111.xhtml" id="chapter-111" media-type="application/xhtml+xml" />
+    <item href="Text/chapter112.xhtml" id="chapter-112" media-type="application/xhtml+xml" />
+    <item href="Text/chapter113.xhtml" id="chapter-113" media-type="application/xhtml+xml" />
+    <item href="Text/chapter114.xhtml" id="chapter-114" media-type="application/xhtml+xml" />
+    <item href="Text/chapter115.xhtml" id="chapter-115" media-type="application/xhtml+xml" />
+    <item href="Text/chapter116.xhtml" id="chapter-116" media-type="application/xhtml+xml" />
+    <item href="Text/chapter117.xhtml" id="chapter-117" media-type="application/xhtml+xml" />
+    <item href="Text/chapter118.xhtml" id="chapter-118" media-type="application/xhtml+xml" />
+    <item href="Text/chapter119.xhtml" id="chapter-119" media-type="application/xhtml+xml" />
+    <item href="Text/chapter120.xhtml" id="chapter-120" media-type="application/xhtml+xml" />
+    <item href="Text/chapter121.xhtml" id="chapter-121" media-type="application/xhtml+xml" />
+    <item href="Text/chapter122.xhtml" id="chapter-122" media-type="application/xhtml+xml" />
+    <item href="Text/chapter123.xhtml" id="chapter-123" media-type="application/xhtml+xml" />
+    <item href="Text/chapter124.xhtml" id="chapter-124" media-type="application/xhtml+xml" />
+    <item href="Text/chapter125.xhtml" id="chapter-125" media-type="application/xhtml+xml" />
+    <item href="Text/chapter126.xhtml" id="chapter-126" media-type="application/xhtml+xml" />
+    <item href="Text/chapter127.xhtml" id="chapter-127" media-type="application/xhtml+xml" />
+    <item href="Text/chapter128.xhtml" id="chapter-128" media-type="application/xhtml+xml" />
+    <item href="Text/chapter129.xhtml" id="chapter-129" media-type="application/xhtml+xml" />
+    <item href="Text/chapter130.xhtml" id="chapter-130" media-type="application/xhtml+xml" />
+    <item href="Text/chapter131.xhtml" id="chapter-131" media-type="application/xhtml+xml" />
+    <item href="Text/chapter132.xhtml" id="chapter-132" media-type="application/xhtml+xml" />
+    <item href="Text/chapter133.xhtml" id="chapter-133" media-type="application/xhtml+xml" />
+    <item href="Text/chapter134.xhtml" id="chapter-134" media-type="application/xhtml+xml" />
+    <item href="Text/chapter135.xhtml" id="chapter-135" media-type="application/xhtml+xml" />
+    <item href="Text/epilogue.xhtml" id="epilogue" media-type="application/xhtml+xml" />
+  </manifest>
+
+  <!-- SPINE (mandatory)
+
+       The spine element defines the default reading order of the content. It doesn't list every file in the manifest, 
+       just the reading order.
+
+       The value of the idref tag in the spine has to match the ID tag for that entry in the manifest.
+
+       For example, if you have the following reference in your manifest:
+
+          <item id="chapter-1" href="chapter01.xhtml" media-type="application/xhtml+xml" />
+
+       your spine entry would be:
+
+          <itemref idref="chapter-1" />
+
+       http://idpf.org/epub/20/spec/OPF_2.0.1_draft.htm#Section2.4
+
+       -->
+  <spine toc="ncx">
+    <itemref idref="cover" />
+    <itemref idref="acknowledgements" />
+    <itemref idref="etymology" />
+    <itemref idref="extracts" />
+    <itemref idref="chapter-1" />
+    <itemref idref="chapter-2" />
+    <itemref idref="chapter-3" />
+    <itemref idref="chapter-4" />
+    <itemref idref="chapter-5" />
+    <itemref idref="chapter-6" />
+    <itemref idref="chapter-7" />
+    <itemref idref="chapter-8" />
+    <itemref idref="chapter-9" />
+    <itemref idref="chapter-10" />
+    <itemref idref="chapter-11" />
+    <itemref idref="chapter-12" />
+    <itemref idref="chapter-13" />
+    <itemref idref="chapter-14" />
+    <itemref idref="chapter-15" />
+    <itemref idref="chapter-16" />
+    <itemref idref="chapter-17" />
+    <itemref idref="chapter-18" />
+    <itemref idref="chapter-19" />
+    <itemref idref="chapter-20" />
+    <itemref idref="chapter-21" />
+    <itemref idref="chapter-22" />
+    <itemref idref="chapter-23" />
+    <itemref idref="chapter-24" />
+    <itemref idref="chapter-25" />
+    <itemref idref="chapter-26" />
+    <itemref idref="chapter-27" />
+    <itemref idref="chapter-28" />
+    <itemref idref="chapter-29" />
+    <itemref idref="chapter-30" />
+    <itemref idref="chapter-31" />
+    <itemref idref="chapter-32" />
+    <itemref idref="chapter-33" />
+    <itemref idref="chapter-34" />
+    <itemref idref="chapter-35" />
+    <itemref idref="chapter-36" />
+    <itemref idref="chapter-37" />
+    <itemref idref="chapter-38" />
+    <itemref idref="chapter-39" />
+    <itemref idref="chapter-40" />
+    <itemref idref="chapter-41" />
+    <itemref idref="chapter-42" />
+    <itemref idref="chapter-43" />
+    <itemref idref="chapter-44" />
+    <itemref idref="chapter-45" />
+    <itemref idref="chapter-46" />
+    <itemref idref="chapter-47" />
+    <itemref idref="chapter-48" />
+    <itemref idref="chapter-49" />
+    <itemref idref="chapter-50" />
+    <itemref idref="chapter-51" />
+    <itemref idref="chapter-52" />
+    <itemref idref="chapter-53" />
+    <itemref idref="chapter-54" />
+    <itemref idref="chapter-55" />
+    <itemref idref="chapter-56" />
+    <itemref idref="chapter-57" />
+    <itemref idref="chapter-58" />
+    <itemref idref="chapter-59" />
+    <itemref idref="chapter-60" />
+    <itemref idref="chapter-61" />
+    <itemref idref="chapter-62" />
+    <itemref idref="chapter-63" />
+    <itemref idref="chapter-64" />
+    <itemref idref="chapter-65" />
+    <itemref idref="chapter-66" />
+    <itemref idref="chapter-67" />
+    <itemref idref="chapter-68" />
+    <itemref idref="chapter-69" />
+    <itemref idref="chapter-70" />
+    <itemref idref="chapter-71" />
+    <itemref idref="chapter-72" />
+    <itemref idref="chapter-73" />
+    <itemref idref="chapter-74" />
+    <itemref idref="chapter-75" />
+    <itemref idref="chapter-76" />
+    <itemref idref="chapter-77" />
+    <itemref idref="chapter-78" />
+    <itemref idref="chapter-79" />
+    <itemref idref="chapter-80" />
+    <itemref idref="chapter-81" />
+    <itemref idref="chapter-82" />
+    <itemref idref="chapter-83" />
+    <itemref idref="chapter-84" />
+    <itemref idref="chapter-85" />
+    <itemref idref="chapter-86" />
+    <itemref idref="chapter-87" />
+    <itemref idref="chapter-88" />
+    <itemref idref="chapter-89" />
+    <itemref idref="chapter-90" />
+    <itemref idref="chapter-91" />
+    <itemref idref="chapter-92" />
+    <itemref idref="chapter-93" />
+    <itemref idref="chapter-94" />
+    <itemref idref="chapter-95" />
+    <itemref idref="chapter-96" />
+    <itemref idref="chapter-97" />
+    <itemref idref="chapter-98" />
+    <itemref idref="chapter-99" />
+    <itemref idref="chapter-100" />
+    <itemref idref="chapter-101" />
+    <itemref idref="chapter-102" />
+    <itemref idref="chapter-103" />
+    <itemref idref="chapter-104" />
+    <itemref idref="chapter-105" />
+    <itemref idref="chapter-106" />
+    <itemref idref="chapter-107" />
+    <itemref idref="chapter-108" />
+    <itemref idref="chapter-109" />
+    <itemref idref="chapter-110" />
+    <itemref idref="chapter-111" />
+    <itemref idref="chapter-112" />
+    <itemref idref="chapter-113" />
+    <itemref idref="chapter-114" />
+    <itemref idref="chapter-115" />
+    <itemref idref="chapter-116" />
+    <itemref idref="chapter-117" />
+    <itemref idref="chapter-118" />
+    <itemref idref="chapter-119" />
+    <itemref idref="chapter-120" />
+    <itemref idref="chapter-121" />
+    <itemref idref="chapter-122" />
+    <itemref idref="chapter-123" />
+    <itemref idref="chapter-124" />
+    <itemref idref="chapter-125" />
+    <itemref idref="chapter-126" />
+    <itemref idref="chapter-127" />
+    <itemref idref="chapter-128" />
+    <itemref idref="chapter-129" />
+    <itemref idref="chapter-130" />
+    <itemref idref="chapter-131" />
+    <itemref idref="chapter-132" />
+    <itemref idref="chapter-133" />
+    <itemref idref="chapter-134" />
+    <itemref idref="chapter-135" />
+    <itemref idref="epilogue" />
+  </spine>
+
+  <!-- GUIDE (optional, recommended by Apple)
+
+        The guide lets you specify the role of the book's files.
+
+        Available tags: cover, title-page, toc, index, glossary, acknowledgements, bibliography,
+        colophon, copyright-page, dedication, epigraph, foreword, loi (list of illustrations),
+        lot (list of tables), notes, preface, and text.
+
+        http://idpf.org/epub/20/spec/OPF_2.0.1_draft.htm#Section2.6
+
+       -->
+  <guide>
+    <reference href="Text/cover.xhtml" title="Cover" type="cover" />
+    <reference href="Text/acknowledgements.xhtml" type="acknowledgements" />
+    <reference href="Text/etymology.xhtml" type="text" />
+    <reference href="Text/extracts.xhtml" type="text" />
+    <reference href="Text/chapter1.xhtml" type="text" />
+    <reference href="Text/chapter2.xhtml" type="text" />
+    <reference href="Text/chapter3.xhtml" type="text" />
+    <reference href="Text/chapter4.xhtml" type="text" />
+    <reference href="Text/chapter5.xhtml" type="text" />
+    <reference href="Text/chapter6.xhtml" type="text" />
+    <reference href="Text/chapter7.xhtml" type="text" />
+    <reference href="Text/chapter8.xhtml" type="text" />
+    <reference href="Text/chapter9.xhtml" type="text" />
+    <reference href="Text/chapter10.xhtml" type="text" />
+    <reference href="Text/chapter11.xhtml" type="text" />
+    <reference href="Text/chapter12.xhtml" type="text" />
+    <reference href="Text/chapter13.xhtml" type="text" />
+    <reference href="Text/chapter14.xhtml" type="text" />
+    <reference href="Text/chapter15.xhtml" type="text" />
+    <reference href="Text/chapter16.xhtml" type="text" />
+    <reference href="Text/chapter17.xhtml" type="text" />
+    <reference href="Text/chapter18.xhtml" type="text" />
+    <reference href="Text/chapter19.xhtml" type="text" />
+    <reference href="Text/chapter20.xhtml" type="text" />
+    <reference href="Text/chapter21.xhtml" type="text" />
+    <reference href="Text/chapter22.xhtml" type="text" />
+    <reference href="Text/chapter23.xhtml" type="text" />
+    <reference href="Text/chapter24.xhtml" type="text" />
+    <reference href="Text/chapter25.xhtml" type="text" />
+    <reference href="Text/chapter26.xhtml" type="text" />
+    <reference href="Text/chapter27.xhtml" type="text" />
+    <reference href="Text/chapter28.xhtml" type="text" />
+    <reference href="Text/chapter29.xhtml" type="text" />
+    <reference href="Text/chapter30.xhtml" type="text" />
+    <reference href="Text/chapter31.xhtml" type="text" />
+    <reference href="Text/chapter32.xhtml" type="text" />
+    <reference href="Text/chapter33.xhtml" type="text" />
+    <reference href="Text/chapter34.xhtml" type="text" />
+    <reference href="Text/chapter35.xhtml" type="text" />
+    <reference href="Text/chapter36.xhtml" type="text" />
+    <reference href="Text/chapter37.xhtml" type="text" />
+    <reference href="Text/chapter38.xhtml" type="text" />
+    <reference href="Text/chapter39.xhtml" type="text" />
+    <reference href="Text/chapter40.xhtml" type="text" />
+    <reference href="Text/chapter41.xhtml" type="text" />
+    <reference href="Text/chapter42.xhtml" type="text" />
+    <reference href="Text/chapter43.xhtml" type="text" />
+    <reference href="Text/chapter44.xhtml" type="text" />
+    <reference href="Text/chapter45.xhtml" type="text" />
+    <reference href="Text/chapter46.xhtml" type="text" />
+    <reference href="Text/chapter47.xhtml" type="text" />
+    <reference href="Text/chapter48.xhtml" type="text" />
+    <reference href="Text/chapter49.xhtml" type="text" />
+    <reference href="Text/chapter50.xhtml" type="text" />
+    <reference href="Text/chapter51.xhtml" type="text" />
+    <reference href="Text/chapter52.xhtml" type="text" />
+    <reference href="Text/chapter53.xhtml" type="text" />
+    <reference href="Text/chapter54.xhtml" type="text" />
+    <reference href="Text/chapter55.xhtml" type="text" />
+    <reference href="Text/chapter56.xhtml" type="text" />
+    <reference href="Text/chapter57.xhtml" type="text" />
+    <reference href="Text/chapter58.xhtml" type="text" />
+    <reference href="Text/chapter59.xhtml" type="text" />
+    <reference href="Text/chapter60.xhtml" type="text" />
+    <reference href="Text/chapter61.xhtml" type="text" />
+    <reference href="Text/chapter62.xhtml" type="text" />
+    <reference href="Text/chapter63.xhtml" type="text" />
+    <reference href="Text/chapter64.xhtml" type="text" />
+    <reference href="Text/chapter65.xhtml" type="text" />
+    <reference href="Text/chapter66.xhtml" type="text" />
+    <reference href="Text/chapter67.xhtml" type="text" />
+    <reference href="Text/chapter68.xhtml" type="text" />
+    <reference href="Text/chapter69.xhtml" type="text" />
+    <reference href="Text/chapter70.xhtml" type="text" />
+    <reference href="Text/chapter71.xhtml" type="text" />
+    <reference href="Text/chapter72.xhtml" type="text" />
+    <reference href="Text/chapter73.xhtml" type="text" />
+    <reference href="Text/chapter74.xhtml" type="text" />
+    <reference href="Text/chapter75.xhtml" type="text" />
+    <reference href="Text/chapter76.xhtml" type="text" />
+    <reference href="Text/chapter77.xhtml" type="text" />
+    <reference href="Text/chapter78.xhtml" type="text" />
+    <reference href="Text/chapter79.xhtml" type="text" />
+    <reference href="Text/chapter80.xhtml" type="text" />
+    <reference href="Text/chapter81.xhtml" type="text" />
+    <reference href="Text/chapter82.xhtml" type="text" />
+    <reference href="Text/chapter83.xhtml" type="text" />
+    <reference href="Text/chapter84.xhtml" type="text" />
+    <reference href="Text/chapter85.xhtml" type="text" />
+    <reference href="Text/chapter86.xhtml" type="text" />
+    <reference href="Text/chapter87.xhtml" type="text" />
+    <reference href="Text/chapter88.xhtml" type="text" />
+    <reference href="Text/chapter89.xhtml" type="text" />
+    <reference href="Text/chapter90.xhtml" type="text" />
+    <reference href="Text/chapter91.xhtml" type="text" />
+    <reference href="Text/chapter92.xhtml" type="text" />
+    <reference href="Text/chapter93.xhtml" type="text" />
+    <reference href="Text/chapter94.xhtml" type="text" />
+    <reference href="Text/chapter95.xhtml" type="text" />
+    <reference href="Text/chapter96.xhtml" type="text" />
+    <reference href="Text/chapter97.xhtml" type="text" />
+    <reference href="Text/chapter98.xhtml" type="text" />
+    <reference href="Text/chapter99.xhtml" type="text" />
+    <reference href="Text/chapter100.xhtml" type="text" />
+    <reference href="Text/chapter101.xhtml" type="text" />
+    <reference href="Text/chapter102.xhtml" type="text" />
+    <reference href="Text/chapter103.xhtml" type="text" />
+    <reference href="Text/chapter104.xhtml" type="text" />
+    <reference href="Text/chapter105.xhtml" type="text" />
+    <reference href="Text/chapter106.xhtml" type="text" />
+    <reference href="Text/chapter107.xhtml" type="text" />
+    <reference href="Text/chapter108.xhtml" type="text" />
+    <reference href="Text/chapter109.xhtml" type="text" />
+    <reference href="Text/chapter110.xhtml" type="text" />
+    <reference href="Text/chapter111.xhtml" type="text" />
+    <reference href="Text/chapter112.xhtml" type="text" />
+    <reference href="Text/chapter113.xhtml" type="text" />
+    <reference href="Text/chapter114.xhtml" type="text" />
+    <reference href="Text/chapter115.xhtml" type="text" />
+    <reference href="Text/chapter116.xhtml" type="text" />
+    <reference href="Text/chapter117.xhtml" type="text" />
+    <reference href="Text/chapter118.xhtml" type="text" />
+    <reference href="Text/chapter119.xhtml" type="text" />
+    <reference href="Text/chapter120.xhtml" type="text" />
+    <reference href="Text/chapter121.xhtml" type="text" />
+    <reference href="Text/chapter122.xhtml" type="text" />
+    <reference href="Text/chapter123.xhtml" type="text" />
+    <reference href="Text/chapter124.xhtml" type="text" />
+    <reference href="Text/chapter125.xhtml" type="text" />
+    <reference href="Text/chapter126.xhtml" type="text" />
+    <reference href="Text/chapter127.xhtml" type="text" />
+    <reference href="Text/chapter128.xhtml" type="text" />
+    <reference href="Text/chapter129.xhtml" type="text" />
+    <reference href="Text/chapter130.xhtml" type="text" />
+    <reference href="Text/chapter131.xhtml" type="text" />
+    <reference href="Text/chapter132.xhtml" type="text" />
+    <reference href="Text/chapter133.xhtml" type="text" />
+    <reference href="Text/chapter134.xhtml" type="text" />
+    <reference href="Text/chapter135.xhtml" type="text" />
+    <reference href="Text/epilogue.xhtml" type="text" />
+  </guide>
+
+</package>

@@ -1,0 +1,77 @@
+﻿body {
+  line-height: 1.5em;
+}
+
+h2 {
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+div {
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+p {
+  text-indent: 0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0.5em;
+  margin-bottom: 0em;
+}
+
+/* odd-numbered lines (1,3,5...) */
+p.verse {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  font-size: small;
+  font-style: italic;
+}
+
+/* even-numbered lines (2,4,6..) where a slight indent is required */
+p.verse2 {
+  margin-left: 1.6em;
+  margin-right: 1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  font-size: small;
+  font-style: italic;
+}
+
+/* line 1 of a block quotation */
+p.quote1 {
+}
+
+/* line 2-n of a block quotation */
+p.quoten {
+  margin-left: 0.45em;
+  margin-top: 0em;
+}
+
+p.footnote {
+  margin-left: 1.0em;
+  margin-top: 0em;
+}
+
+/* the author of a verse or quotation */
+p.author {
+  margin-left: 1.5em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  font-style: italic;
+}
+
+p.centre {
+  text-align: center;
+}
+
+p.note {
+  margin-top: 0em;
+  font-size: small;
+}

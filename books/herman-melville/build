@@ -1,10 +1,10 @@
 #!/bin/bash
 # Build Moby Dick .epub archive
 pushd ./moby-dick
-rm ../MobyDick.epub
+rm ../moby-dick.epub
 
-zip -X0   ../MobyDick.epub mimetype 
-zip -9 -r ../MobyDick.epub META-INF OEBPS
+zip -X0   ../moby-dick.epub mimetype 
+zip -9 -r ../moby-dick.epub META-INF OEBPS
 
 popd
 echo "Done"
